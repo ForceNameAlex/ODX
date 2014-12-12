@@ -5,11 +5,7 @@
                 {
                     "id": "dijit/DropDownMenu",
                     "name": "DropDown Menu"
-                },
-                {
-                    "id": "dijit/Menu",
-                    "name": "Menu"
-                }
+                } 
             ],
             "id": "menu",
             "name": "Menu Widgets",
@@ -139,7 +135,7 @@
                     "name": "VerticalRuleLabels"                  
                 },
                 {
-                    "id": "dijit/form/VerticalRuleLabels",
+                    "id": "dijit/form/VerticalSlider",
                     "name": "VerticalSlider"                  
                 },
                 {

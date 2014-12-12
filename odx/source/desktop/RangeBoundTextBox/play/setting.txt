@@ -24,13 +24,13 @@
       "propName": "checked",
       "displayName": "Checked on load",
       "tagName": "checkbox",
-      "checked": true
+      "checked": "true"
     },
     {
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-      "checked": true
+      "checked": "true"
     },
     {
         "propName": "value",
