@@ -24,21 +24,13 @@
       "propName": "checked",
       "displayName": "Checked on load",
       "tagName": "checkbox",
-<<<<<<< HEAD
-      "checked": "true"
-=======
      "defaultValue": ""
->>>>>>> kevin/branch-kev-11Jan2015-search-func-phase1
     },
     {
       "propName": "disabled",
       "displayName": "Disabled",
       "tagName": "checkbox",
-<<<<<<< HEAD
-      "checked": "true"
-=======
      "defaultValue": ""
->>>>>>> kevin/branch-kev-11Jan2015-search-func-phase1
     },
     {
         "propName": "value",

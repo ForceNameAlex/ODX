@@ -41,11 +41,7 @@ define(
 		json
 	) {
 		var VIEW_NAME = "content";
-<<<<<<< HEAD
 		var _thisPage = null;
-=======
-		var _thisPage = null;	
->>>>>>> kevin/branch-kev-11Jan2015-search-func-phase1
 		var overviewTab = null;
 		var playTab = null;
 		var guidenceTab = null;
@@ -59,20 +55,11 @@ define(
 		var htmSrc = null;
 		var jsSrc = null;
 		var settingStr = null;
-<<<<<<< HEAD
-		return {
-			init: function() {
-				console.log("#" + VIEW_NAME + " - init()");
-				_thisPage = this;
-=======
-		var title = null;
-
 		return {
 			init: function() {
 				console.log("#" + VIEW_NAME + " - init()");
 				_thisPage = this;	
 				title = dojo.byId("widget-title");				
->>>>>>> kevin/branch-kev-11Jan2015-search-func-phase1
 				overviewTab = dijit.byId("desktop-overview-tab");
 				playTab = dijit.byId("desktop-play-tab");
 				guidenceTab = dijit.byId("desktop-guidence-tab");
@@ -94,12 +81,7 @@ define(
 				overviewTab.set("href", _thisPage.data.path + "/overview.html");
 				guidenceTab.set("href", _thisPage.data.path + "/guidence.html");
 				_thisPage._constructPlayPane();
-<<<<<<< HEAD
-			},
-=======
-
 			},		
->>>>>>> kevin/branch-kev-11Jan2015-search-func-phase1
 			_constructPlayPane: function() {
 				//Clean play pane first
 				_thisPage._cleanPlayPane();
@@ -249,4 +231,5 @@ define(
 			}
 		};
 	}
+		 
 );
