@@ -71,13 +71,14 @@ define([
 				});
 				_widgetTree = new Tree({
 					model: widgetModel,
-					openOnClick: false,
+					openOnClick: true,
 					animation: false,
 					onClick: _thisPage.treeItemClick,
 					persist: false,
 					showRoot: false,
 					getIconClass: function(item, opened) { /*Customize icon class here*/
-						return (!item || this.model.mayHaveChildren(item)) ? (opened ? "dijitFolderOpened" : "dijitFolderClosed") : "dijitLeaf"
+						//return (!item || this.model.mayHaveChildren(item)) ? (opened ? "dijitFolderOpened" : "dijitFolderClosed") : "dijitLeaf"
+						return (!item || this.model.mayHaveChildren(item)) ? (opened ? "treeFolderOpened" : "treeFolderClosed") : "treeLeaf"
 					},
 				}, "desktop-widgets-list");
 				_widgetTree.startup();
@@ -85,6 +86,8 @@ define([
 			},
 			treeItemClick: function(item, node, e) {
 				if (item.type != "group") {
+					//wrap the search list - Scholes
+					list.destroyDescendants();
 					var transOpts = {
 						target: "main,desktop,content",
 						url: "#main,desktop",
