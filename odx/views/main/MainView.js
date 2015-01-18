@@ -146,17 +146,5 @@ define(
 			      results.nextPage();
 			    }
 		},
-		searchListItemClick : function() {
-
-			alert("hi");
-			/*
-			 * if (item.type != "group") {
-			 * 
-			 * list.destroyDescendants();
-			 * 
-			 * var transOpts = { target : "main,desktop,content", url :
-			 * "#main,desktop", data : item, params : { id : item.id } }; new
-			 * TransitionEvent(e.target, transOpts, e).dispatch(); }
-			 */}
 		};
 });
